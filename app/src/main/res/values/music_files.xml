@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filename">
+        <item>adventure_music</item>
+        <item>puzzle_music</item>
+        <item>fantasy_music</item>
+    </string-array>
+
+    <string-array name="showtext">
+        <item>Adventure</item>
+        <item>Puzzle</item>
+        <item>Fantasy</item>
+    </string-array>
+</resources>

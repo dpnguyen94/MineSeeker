@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.assignment.pdnguyen.mineseeker.MenuActivity"
+    android:background="@drawable/menu_background"
+    tools:layout_editor_absoluteY="73dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Main Menu"
+            android:textColor="#ff7f50"
+            android:textSize="28sp"
+            tools:layout_editor_absoluteX="196dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/buttonHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help"
+            tools:layout_editor_absoluteX="222dp"
+            tools:layout_editor_absoluteY="182dp"
+            android:layout_marginTop="9dp"
+            android:layout_below="@+id/buttonOptions"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/buttonOptions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Options"
+            tools:layout_editor_absoluteX="222dp"
+            tools:layout_editor_absoluteY="124dp"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/buttonHelp"
+            android:layout_alignStart="@+id/buttonHelp" />
+
+        <Button
+            android:id="@+id/buttonPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            tools:layout_editor_absoluteX="222dp"
+            tools:layout_editor_absoluteY="66dp"
+            android:layout_marginBottom="9dp"
+            android:layout_above="@+id/buttonOptions"
+            android:layout_alignLeft="@+id/buttonOptions"
+            android:layout_alignStart="@+id/buttonOptions" />
+
+        <Button
+            android:id="@+id/buttonQuit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buttonHelp"
+            android:layout_alignStart="@+id/buttonHelp"
+            android:layout_below="@+id/buttonHelp"
+            android:layout_marginTop="15dp"
+            android:text="Quit" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
